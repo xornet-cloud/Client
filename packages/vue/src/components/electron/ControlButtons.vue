@@ -55,6 +55,8 @@ const onUnmaximizeClick = () => {
 
     -webkit-app-region: no-drag;
 
+    transition: all 0.25s;
+
     & .icon {
       @apply w-4 h-4;
     }

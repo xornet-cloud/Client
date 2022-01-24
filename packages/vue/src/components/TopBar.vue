@@ -1,6 +1,6 @@
 <template>
   <div id="TopBar" class="w-full">
-    <div class="p-2 pr-1 flex items-center gap-2 pr-56 ">
+    <div class="p-2 pr-1 flex items-center gap-2 pr-56">
       <base-input v-model="state.machines.filterText.value" placeholder="Filter" class="w-full max-w-48 text-xs" />
 
       <base-tooltip text="Add machine">
@@ -62,11 +62,9 @@ const columnFilter = ref("");
 const state = useState();
 const columns = computed(() => state.settings.columns);
 </script>
+
 <style lang="postcss" scoped>
 #TopBar {
   -webkit-app-region: drag;
-}
-div {
-  -webkit-app-region: no-drag;
 }
 </style>
