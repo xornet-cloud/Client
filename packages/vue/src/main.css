@@ -105,3 +105,7 @@
 .no-drag {
   -webkit-app-region: no-drag;
 }
+
+.flexcol.gap-2.px-4.overflow-scroll{
+	overflow-x: hidden;
+} /* Hide the scroll on the machine page (Temporary fix)*/
